@@ -1,0 +1,55 @@
+.sidebar {
+    background-color: #EBEBEB;
+    // max-width: 5% !important;
+    width: 70px;
+    height: 93.7vh;
+    box-shadow: 1px 0px 5px rgb(131, 131, 131);
+
+    .MuiSnackbar-root > .MuiPaper-root > .MuiAlert-icon > .MuiSvgIcon-root {
+        font-size: 24px;
+    }
+
+    .MuiSnackbar-root > .MuiPaper-root > .MuiAlert-action > .MuiIconButton-root > .MuiIconButton-label > .MuiSvgIcon-root {
+        font-size: 24px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .sidebarItem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sidebarItem:hover {
+        background-color: #F5F5F5;
+    }
+
+    .sidebarItem > img {
+        height: 23px;
+        margin: 5px;
+    }
+
+    .sidebarItem > svg {
+        height: 23px;
+        margin: 5px;
+    }
+
+    .sidebarItem > p {
+        font-size: 10px;
+    }
+
+    .active {
+        border-left: 4px solid #6264A7;
+    }
+
+    .auth__button {
+        border: 0;
+        width: 100%;
+        padding: 0;
+    }
+}
